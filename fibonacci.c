@@ -8,7 +8,6 @@ int calculate();
 /* Main Function */
 int main()
 {
-
 	calculate();
 
 	return 0;
@@ -68,7 +67,6 @@ int calculate()
 		/* Restart */
 		while(1)
 		{
-
 			printf("Tekrar denemek istiyor musunuz? [e/h]:");
 			scanf(" %c", &choice);
 			
