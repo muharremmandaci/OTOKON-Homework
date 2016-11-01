@@ -23,14 +23,8 @@ int fibonacci(int limit)
 	numbers[1] = 1;
  
  	/* Find Fibonacci Numbers */
-	while(1)
+	while(!(numbers[x-1] + numbers[x-2] >= limit))
 	{
-
-		if (numbers[x-1] + numbers[x-2] >= limit)
-		{
-			break;
-		}
-
 		numbers[x] = numbers[x-1] + numbers[x-2];
 		x++;
 	}
